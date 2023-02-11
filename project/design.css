@@ -1,0 +1,111 @@
+.pic{
+    border-radius: 50%;
+    justify-content: center;   
+    height: 250px; 
+    width: 250px;
+    display: flex;
+    position: relative;
+    top: 150px;
+    left: 700px;
+    animation: rotate 2s linear 30s;
+   
+}
+body{
+    background-color: black  ;
+}
+.song-description{
+    justify-content:center; 
+   position: relative;
+   top: 365px;
+   left: 778px;
+    
+}
+.title{
+    background-color:white;
+    margin-top: -279px;
+}
+.song-title{
+    font-size: 22;
+   font-family: Arial, sans-serif;
+   color: azure;
+}
+.author{
+    font-size: 22;
+    font-family: Arial, sans-serif;
+    color: azure;
+}
+.musicplay{
+    width: 500px;
+    height: 50px;
+    justify-content: center;
+    position: absolute;
+    top: 500px;
+    left: 580px;
+}
+.musicplay progress{
+    color: green;
+}
+
+.fa-forward{
+ font-size: 25px;
+color:azure;
+justify-content: space-between;
+position: relative;
+display: inline-block;
+top: 440px;
+left: 860px;
+
+}
+.fa-backward{ 
+font-size: 25px;
+color:azure;
+justify-content: space-between;
+position: relative;
+display: inline-block;
+top: 440px;
+left: 720px;
+}
+
+.song-title:hover,.author:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.fa-backward:hover,.fa-forward:hover{
+    text-decoration: blue;
+}
+.box{
+    border: solid;
+    color: white;
+    width: 500px;
+    height: 1000px;
+    position: relative;
+    top: -115px; 
+    border-radius: 25px;
+    padding: 10px;
+
+}
+.music1{
+  font-size: 50px;
+   justify-content:space-between;
+    display: flex;
+    color: white;
+    padding: 10px;
+}
+.music1:hover{
+    cursor: pointer;
+    text-decoration: underline;color: blue;
+}
+
+
+
+
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
